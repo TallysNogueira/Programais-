@@ -56,18 +56,18 @@ public class Log extends JFrame {
 		setLocationRelativeTo(null);
 
 		
-		JLabel labelS = new JLabel();
-		labelS.setForeground(new Color(0, 255, 0));
-		labelS.setText("Senha:");
-		labelS.setFont(new Font("Trebuchet MS", Font.BOLD, 13));
-		labelS.setBounds(219, 195, 45, 26);
-		getContentPane().add(labelS);
+		JLabel lblSenha = new JLabel();
+		lblSenha.setForeground(new Color(0, 255, 0));
+		lblSenha.setText("Senha:");
+		lblSenha.setFont(new Font("Trebuchet MS", Font.BOLD, 13));
+		lblSenha.setBounds(219, 195, 45, 26);
+		getContentPane().add(lblSenha);
 		
-		JLabel labelE = new JLabel("Nome de usuário:\r\n");
-		labelE.setForeground(new Color(0, 255, 0));
-		labelE.setFont(new Font("Trebuchet MS", Font.BOLD, 13));
-		labelE.setBounds(156, 171, 108, 14);
-		getContentPane().add(labelE);
+		JLabel lblNome = new JLabel("Nome de usuário:\r\n");
+		lblNome.setForeground(new Color(0, 255, 0));
+		lblNome.setFont(new Font("Trebuchet MS", Font.BOLD, 13));
+		lblNome.setBounds(156, 171, 108, 14);
+		getContentPane().add(lblNome);
 		
 		NomeTELA2 = new JTextField();
 		NomeTELA2.setColumns(10);
@@ -77,8 +77,8 @@ public class Log extends JFrame {
 		
 		
 		
-		JButton buttonTELA2 = new JButton("Prosseguir");
-		buttonTELA2.addActionListener(new ActionListener() {
+		JButton btnProsseguir = new JButton("Prosseguir");
+		btnProsseguir.addActionListener(new ActionListener() {
 			@SuppressWarnings("deprecation")
 			public void actionPerformed(ActionEvent e) {
 				try {
@@ -109,21 +109,21 @@ public class Log extends JFrame {
 	
 			}
 		});
-		buttonTELA2.setBackground(Color.WHITE);
-		buttonTELA2.setBounds(624, 368, 103, 23);
-		getContentPane().add(buttonTELA2);
+		btnProsseguir.setBackground(Color.WHITE);
+		btnProsseguir.setBounds(624, 368, 103, 23);
+		getContentPane().add(btnProsseguir);
 		
-		JLabel lblNewLabel_2 = new JLabel("Seja bem-vindo ao Programais+");
-		lblNewLabel_2.setForeground(new Color(0, 255, 0));
-		lblNewLabel_2.setFont(new Font("Trebuchet MS", Font.BOLD | Font.ITALIC, 16));
-		lblNewLabel_2.setBounds(219, 11, 245, 20);
-		getContentPane().add(lblNewLabel_2);
+		JLabel lbl1 = new JLabel("Seja bem-vindo ao Programais+");
+		lbl1.setForeground(new Color(0, 255, 0));
+		lbl1.setFont(new Font("Trebuchet MS", Font.BOLD | Font.ITALIC, 16));
+		lbl1.setBounds(219, 11, 245, 20);
+		getContentPane().add(lbl1);
 		
-		JLabel lblNewLabel_3 = new JLabel("Por favor preencha os campos abaixo");
-		lblNewLabel_3.setForeground(new Color(0, 255, 0));
-		lblNewLabel_3.setFont(new Font("Trebuchet MS", Font.BOLD | Font.ITALIC, 16));
-		lblNewLabel_3.setBounds(196, 118, 300, 31);
-		getContentPane().add(lblNewLabel_3);
+		JLabel lbl2 = new JLabel("Por favor preencha os campos abaixo");
+		lbl2.setForeground(new Color(0, 255, 0));
+		lbl2.setFont(new Font("Trebuchet MS", Font.BOLD | Font.ITALIC, 16));
+		lbl2.setBounds(196, 118, 300, 31);
+		getContentPane().add(lbl2);
 		
 		SenhaTELA2 = new JPasswordField();
 		SenhaTELA2.setBounds(263, 200, 176, 20);
@@ -150,11 +150,11 @@ public class Log extends JFrame {
 		btnCadastrarse.setBounds(624, 13, 103, 23);
 		getContentPane().add(btnCadastrarse);
 		
-		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setBorder(new LineBorder(new Color(0, 255, 0)));
-		lblNewLabel.setIcon(new ImageIcon(Log.class.getResource("/imagens/preview2.gif")));
-		lblNewLabel.setBounds(0, -15, 737, 416);
-		getContentPane().add(lblNewLabel);
+		JLabel lblWallpaper2 = new JLabel("");
+		lblWallpaper2.setBorder(new LineBorder(new Color(0, 255, 0)));
+		lblWallpaper2.setIcon(new ImageIcon(Log.class.getResource("/imagens/preview2.gif")));
+		lblWallpaper2.setBounds(0, -15, 737, 416);
+		getContentPane().add(lblWallpaper2);
 
 	}
 }
